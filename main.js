@@ -29,22 +29,6 @@ $(".btn1").click(function(){
 
 
 
-function mobile(){
-    if($(window).width() < 821){
-        
-    }else{
-        console.log("pc");
-        $(".container").html(`
-            <div class="eror">
-                <img src="img/eror.png" alt="">
-                <p>Mobile Phone Not Detected</p>
-                <p>Looks like you are trying to access this website from a non mobile phone device.</p>
-            </div>
-
-        `);
-    }
-};
-mobile();
 
 
 
