@@ -34,11 +34,10 @@
   background: #ffffff !important;
 
 }
-.breath{  -webkit-animation: breathing 3s ease-out infinite normal;
-   animation: breath 3s ease-out infinite normal;}
+
 
 .app-profile-container .profile img {
-max-width: 160px;
+max-width: 300px;
 border-radius:23px;
 }
 
