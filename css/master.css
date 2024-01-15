@@ -5,10 +5,10 @@
 
  .bouton{
                                         display: block;
-                                        background-color: #719fee;
+                                        background-color: #444;
                                         border-radius: 10px;
-                                        border: 4px double #1f69ec;
-                                        color: #ffffff;
+                                        border: 4px double #444;
+                                        color: #000000;
                                         text-align: center;
                                         font-size: 20px;
                                         padding: 10px;
@@ -20,15 +20,17 @@
                                         transition: all 0.5s;
 }
                                 .bouton:hover{
-                                        background-color: #ffffff;
-                                        border: 2px solid #1f69ec;
-                                        box-shadow: 10px 5px 5px #719fee;
-                                        color: #1f69ec;
+                                        background-color: #000000;
+                                        border: 2px solid #444;
+                                        box-shadow: 10px 5px 5px #444;
+                                        color: #444;
                                         text-align: center;
                                         font-size: 22px;
 }
+a:link, a:visited {
+  color: white;
 
-
+}
 
 .profile {
   background: #ffffff !important;
